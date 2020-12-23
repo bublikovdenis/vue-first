@@ -591,6 +591,21 @@
   resolved "https://registry.npm.taobao.org/@vue/web-component-wrapper/download/@vue/web-component-wrapper-1.2.0.tgz#bb0e46f1585a7e289b4ee6067dcc5a6ae62f1dd1"
   integrity sha1-uw5G8VhafiibTuYGfcxaauYvHdE=
 
+"@vueuse/core@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-4.0.0.tgz#5bea3eaa848e3b3e00427f5053fb98e7e4834b0f"
+  integrity sha512-BBkqriC2j9SH/LuHCggS2MP7VSwBfGkTB9qQh1lzadodk2TnM1JHwM76f3G0hCGqqhEF7ab8Xs+1M1PlvuEQYA==
+  dependencies:
+    "@vueuse/shared" "4.0.0"
+    vue-demi latest
+
+"@vueuse/shared@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-4.0.0.tgz#d495b8fd2f28a453ef0fccae175ca848a4a84bb0"
+  integrity sha512-8tn1BpnaMJU2LqFyFzzN6Dvmc1uDsSlb3Neli5bwwb9f+rcASpuOS3nAWAY6/rIODZP1iwXDNCL4rNFR3YxYtQ==
+  dependencies:
+    vue-demi latest
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.npm.taobao.org/@webassemblyjs/ast/download/@webassemblyjs/ast-1.9.0.tgz?cache=0&sync_timestamp=1601755857420&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40webassemblyjs%2Fast%2Fdownload%2F%40webassemblyjs%2Fast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"
@@ -7679,6 +7694,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-demi@latest:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.5.3.tgz#ec0f10b2c56d5958f31363afaa2ef8b8b9c4e6ec"
+  integrity sha512-1uW/aIJOEkRbyK3FBeReKbbMAZc/V5yUo4FQRprufm4GgMnAmJSSyk8mTJ9IgR4pbbCsQ7FddVHcuwz4IDEfGg==
 
 vue-eslint-parser@^7.0.0, vue-eslint-parser@^7.3.0:
   version "7.3.0"
