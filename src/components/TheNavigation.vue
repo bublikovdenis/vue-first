@@ -5,7 +5,7 @@
         <router-link to="/" class="nav-link active">Главная</router-link>
       </li>
       <li class="nav-item">
-        <router-link :to="{name: 'gallery'}" class="nav-link active">Галерея</router-link>
+        <router-link :to="{name: 'gallery-portraits'}" class="nav-link active">Галерея</router-link>
       </li>
     </ul>
   </nav>
@@ -23,6 +23,7 @@ export default defineComponent({});
     padding: 0;
     height: 55px;
     display: flex;
+    box-shadow: 0px 0px 35px 20px var(--nav-color);
     /* align-items: center; */
   }
   .nav-item .nav-link{
@@ -35,6 +36,7 @@ export default defineComponent({});
     box-shadow: 0px 0px 50px 7px #29D9C2;
   }
   a {
+    font-size: 14px;
     color: var(--nav-text-color);
   }
 </style>

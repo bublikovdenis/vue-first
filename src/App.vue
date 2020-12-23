@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <TheNavigation></TheNavigation>
+  <TheNavigation></TheNavigation>
+    <!-- <img src="@/assets/back.jpg" alt="fghfgh"> -->
     <router-view />
-  </div>
 </template>
 
 <script>
+
 import TheNavigation from '@/components/TheNavigation.vue';
 import {
   defineComponent,
@@ -27,9 +27,9 @@ export default defineComponent({
     color: #2c3e50;
   }
 
-  #nav {
+  /* #nav {
     padding: 30px;
-  }
+  } */
 
   #nav a {
     font-weight: bold;
@@ -44,5 +44,8 @@ export default defineComponent({
     --nav-text-hover-color: #02498c;
     --nav-color: #038cae;
     --nav-hover-color: #29D9C2;
+
+    --main-text-color: #03ddff;
+    --main-text-shadow-color: #03ddff;
   }
 </style>
